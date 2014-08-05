@@ -1,5 +1,5 @@
 #!/bin/bash
-# CRITs Ubuntu 14.04.1 LTS 32-bit Dependencies
+# CRITs Ubuntu 14.04.1 LTS 32-bit dependencies
 sudo apt-get update
 sudo apt-get -y install python-pip python-m2crypto apache2 libapache2-mod-wsgi build-essential libpcre3-dev numactl curl zip p7zip-full unrar libpcap-dev python-simplejson python-pycurl python-dev python-pydot python-pyparsing python-yaml python-setuptools python-numpy python-matplotlib python-lxml upx m2crypto libfuzzy-dev python-nids
 cd /tmp && wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.1.tgz && tar -zxvf mongodb-linux-i686-2.6.1.tgz && sudo cp mongodb-linux-i686-2.6.1/bin/* /usr/local/bin/
